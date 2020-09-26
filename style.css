@@ -1,0 +1,89 @@
+.calculator {
+  background-color: rgb(235, 235, 226);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "dis dis dis dis dis"
+    "but7 but8 but9 clear clear"
+    "but4 but5 but6 brakopen brakclose"
+    "but1 but2 but3 multi divi"
+    "but0 dec neg equals equals";
+}
+
+.numberDisplay {
+  grid-area: dis;
+  background-color: rgb(192, 192, 192);
+}
+
+.button0 {
+  grid-area: but0;
+}
+
+.button1 {
+  grid-area: but1;
+}
+
+.button2 {
+  grid-area: but2;
+}
+
+.button3 {
+  grid-area: but3;
+}
+
+.button4 {
+  grid-area: but4;
+}
+
+.button5 {
+  grid-area: but5;
+}
+
+.button6 {
+  grid-area: but6;
+}
+
+.button7 {
+  grid-area: but7;
+}
+
+.button8 {
+  grid-area: but8;
+}
+
+.button9 {
+  grid-area: but9;
+}
+
+.buttonClear {
+  grid-area: clear;
+}
+
+.roundBrakOpen {
+  grid-area: brakOpen;
+}
+
+.roundBrakClose {
+  grid-area: brakClose;
+}
+
+.multiply {
+grid-area: multi;
+}
+
+.divide {
+  grid-area: divi;
+}
+
+.buttonDecimal {
+  grid-area: dec;
+}
+
+.buttonNeg {
+  grid-area: neg;
+}
+
+.buttonEquals {
+  grid-area: equals;
+}
