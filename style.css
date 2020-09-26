@@ -1,14 +1,14 @@
 .calculator {
   background-color: rgb(235, 235, 226);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-    "dis dis dis dis dis"
-    "but7 but8 but9 clear clear"
-    "but4 but5 but6 brakOpen brakClose"
-    "but1 but2 but3 multi divi"
-    "but0 dec neg equals equals";
+    "buffer dis dis dis dis dis dis"
+    "buffer but7 but8 but9 clear clear clear"
+    "buffer but4 but5 but6 brakOpen brakClose add"
+    "buffer but1 but2 but3 multi divi sub"
+    "buffer but0 dec neg equals equals equals";
 }
 
 .numberDisplay {
@@ -86,4 +86,16 @@ grid-area: multi;
 
 .buttonEquals {
   grid-area: equals;
+}
+
+.add {
+  grid-area: add;
+}
+
+.sub {
+  grid-area: sub;
+}
+
+.para {
+  grid-area: buffer;
 }
