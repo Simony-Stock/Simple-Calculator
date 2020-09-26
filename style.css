@@ -6,7 +6,7 @@
   grid-template-areas: 
     "dis dis dis dis dis"
     "but7 but8 but9 clear clear"
-    "but4 but5 but6 brakopen brakclose"
+    "but4 but5 but6 brakOpen brakClose"
     "but1 but2 but3 multi divi"
     "but0 dec neg equals equals";
 }
