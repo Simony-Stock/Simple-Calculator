@@ -5,6 +5,10 @@ Eventually this will be a simple calculator, but for now it is in it's early sta
 So far I have:
 - used css to organize the buttons and display
 - built a basic set of buttons
+- buttons type out equation
+- "=" sign evaluates and shows answer
+- moderate styling
 
 I am currently working on:
-- giving the buttons functionality
+- remembering most recent answer and adding ans button
+- displaying equation history below
