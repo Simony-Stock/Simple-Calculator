@@ -14,4 +14,4 @@ So far I have:
 I am currently working on:
 - remembering most recent answer and adding ans button
 - displaying equation history below
-- keyboard operation
+- add keyboard operation
