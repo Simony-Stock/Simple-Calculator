@@ -1,0 +1,118 @@
+html {background-color: rgb(207, 221, 241);}
+
+.calculator {
+  
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "title dis dis dis dis dis dis"
+    "buffer but7 but8 but9 clear clear clear"
+    "buffer but4 but5 but6 brakOpen brakClose adds"
+    "buffer but1 but2 but3 multi divi subs"
+    "buffer but0 dec neg equals equals equals";
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;
+
+}
+
+button{
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.numberDisplay {
+  grid-area: dis;
+  background-color:  aliceblue;
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 2% 2% 2% 2%;
+}
+
+.button0 {
+  grid-area: but0;
+}
+
+.button1 {
+  grid-area: but1;
+}
+
+.button2 {
+  grid-area: but2;
+}
+
+.button3 {
+  grid-area: but3;
+}
+
+.button4 {
+  grid-area: but4;
+}
+
+.button5 {
+  grid-area: but5;
+}
+
+.button6 {
+  grid-area: but6;
+}
+
+.button7 {
+  grid-area: but7;
+}
+
+.button8 {
+  grid-area: but8;
+}
+
+.button9 {
+  grid-area: but9;
+}
+
+.buttonClear {
+  grid-area: clear;
+}
+
+.roundBrakOpen {
+  grid-area: brakOpen;
+}
+
+.roundBrakClose {
+  grid-area: brakClose;
+}
+
+.multiply {
+grid-area: multi;
+}
+
+.divide {
+  grid-area: divi;
+}
+
+.buttonDecimal {
+  grid-area: dec;
+}
+
+.buttonNeg {
+  grid-area: neg;
+}
+
+.buttonEquals {
+  grid-area: equals;
+}
+
+.add {
+  grid-area: adds;
+}
+
+.sub {
+  grid-area: subs;
+}
+
+.para {
+  grid-area: buffer;
+}
+
+.title {
+  grid-area: title;
+}
